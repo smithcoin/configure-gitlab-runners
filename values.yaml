@@ -1,0 +1,7 @@
+gitlabUrl: https://gitlab.com/
+runnerRegistrationToken: <<https://gitlab.com/groups/digitalmint/-/settings/ci_cd>>
+rbac:
+  create: true
+runners:
+  image: ubuntu:18.04
+  privileged: true
